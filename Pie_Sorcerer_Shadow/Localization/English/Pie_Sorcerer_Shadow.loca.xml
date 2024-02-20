@@ -1,0 +1,40 @@
+<contentList date="9/3/2023 18:38">
+    <content contentuid="ha3c89791g9e70g4b55g8487gf8189abf84c9" version="1">Shadow Sorcery</content>
+    <content contentuid="h4a3b66ae04a04851aeca56eb8807b48bfcd4" version="1">You are a creature of shadow, for your innate magic comes from the Shadowfell itself.</content>
+    <content contentuid="ha69e2ff9g6c91g460eg8757ge0a12c49bb6d" version="1">Eyes of the Dark</content>
+    <content contentuid="hf89111f1g3d60g4528gbde1g2e6303b35aae" version="1">You can see in the dark up to [1].</content>
+    <content contentuid="hf9e7045c2f414707a934144f4345712267e9" version="1">Eyes of the Dark: Darkness</content>
+    <content contentuid="h5f9d76b5cfef4aa4b5f661e7f41612c5f5g9" version="1">You can spend 2 sorcery points to cast &lt;LSTag Type="Spell" Tooltip="pie_Target_Darkness_EyesOfTheDark"&gt;Sorcerous Darkness&lt;/LSTag&gt;, weaving your shadow magic to blind your enemies and see through darkness.</content>
+    <content contentuid="h34c67515g55b5g493cg9204g9b7e226ec3b4" version="1">Sorcerous Darkness</content>
+    <content contentuid="hd439faadg86b1g451eg8fafg106e4ef9ca02" version="1">Create a dark shroud that Heavily Obscures and &lt;LSTag Type="Status" Tooltip="BLINDED"&gt;Blinds&lt;/LSTag&gt; creatures within. Creatures cannot make ranged attacks into or out of it. Additionally, gain the ability to see through magical darkness while you are &lt;LSTag Tooltip="Concentration"&gt;concentrating&lt;/LSTag&gt; on this spell.</content>
+    <content contentuid="h997c0f43g03a1g46c4ga3a7g3df3e6bfca2d" version="1">Eyes of the Dark</content>
+    <content contentuid="hde85941c275c47e08f61b762c6a9f2e341fa" version="1">By channelling your own shadow magic, you gain the ability to see through magical darkness.</content>
+    <content contentuid="hc527a7b0gc7efg4dd7g9decge7a464aef981" version="1">Strength of the Grave</content>
+    <content contentuid="h88f0923bg109ag4d62g9a30g558f229c50b7" version="1">Your existence in a twilight state between life and death makes you difficult to defeat. Once per long rest, when damage reduces you to 0 hit points, you instead drop to 1 hit point. You can't use this feature if you are reduced to 0 hit points by radiant damage or by a &lt;LSTag Tooltip="CriticalHit"&gt;Critical Hit&lt;/LSTag&gt;.</content>
+    <content contentuid="he0c06e6bgb3cag4519g9fb1gc88a562084ba" version="1">Hound of Ill Omen</content>
+    <content contentuid="h32fbb2747d064cda976cfd1671f65d0779dc" version="1">You gain the ability to call forth a howling creature of darkness to harass your foes. As a &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt;, you can spend 3 &lt;LSTag Type="ActionResource" Tooltip="SorceryPoint"&gt;Sorcery Points&lt;/LSTag&gt; to summon a Hound of Ill Omen to attack the creature marked with &lt;LSTag Type="Status" Tooltip="PIE_HOUND_OF_ILL_OMEN_TARGET"&gt;Ill Omen&lt;/LSTag&gt;.</content>
+    <content contentuid="h91da3fdfg4aa2g4f56gbcfdg47f13f153dbc" version="1">Hound of Ill Omen</content>
+    <content contentuid="hc991233bgad0bg44c5g938fga10601a84c0e" version="1">Hound of Ill Omen: Mark Target</content>
+    <content contentuid="h39800a86gf022g426ega8b3gcb1a96de0f9e" version="1">Marks a target with &lt;LSTag Type="Status" Tooltip="PIE_HOUND_OF_ILL_OMEN_TARGET"&gt;Ill Omen&lt;/LSTag&gt; for your Hound of Ill Omen. The hound can only attack the marked target.</content>
+    <content contentuid="h73ef95f7g5b62g4ac6ga0d2gd10a352aaff1" version="1">Hound of Ill Omen: Summon Hound</content>
+    <content contentuid="h2befdc69g4738g4e66ga005g780e770b0935" version="1">Summon your Hound of Ill Omen to attack the creature marked with &lt;LSTag Type="Status" Tooltip="PIE_HOUND_OF_ILL_OMEN_TARGET"&gt;Ill Omen&lt;/LSTag&gt;. Additionally, while the hound is within [1] of the target, they have Disadvantage on Saving Throws spells you cast.</content>
+    <content contentuid="h2cbf0f97g10f1g4eafga157ge1982fe88b35" version="1">Bite</content>
+    <content contentuid="h1d51823eg63bbg4278g9a4bg19cf5a81e1b8" version="1">Bite a target and possibly knock it &lt;LSTag Type="Status" Tooltip="PRONE"&gt;Prone&lt;/LSTag&gt;.</content>
+    <content contentuid="h6d1d60aegb36fg42d1gb3b4g3808903ab1d9" version="1">Ill Omen</content>
+    <content contentuid="hdc6a50f497234857bc3f9a8735a4fb6f4660" version="1">You have been marked as a target for a Hound of Ill Omen.</content>
+    <content contentuid="hca163711geaefg4df3gb2adgc8c65108da66" version="1">Ominous Howl</content>
+    <content contentuid="h8836e075g858fg4ad7g9047gbddd6b1a90de" version="1">While the Hound of Ill Omen is within [1] of you, you have &lt;LSTag Tooltip="Disadvantage"&gt;Disadvantage&lt;/LSTag&gt; on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against spells from its summoner.</content>
+    <content contentuid="h4a176285dd474de296fc26b8fe3dd7859bd9" version="1">Marked by Shadows</content>
+    <content contentuid="h4e3c560f55604e99b1ef0791af07d19b9583" version="1">You are relentlessly tracked by a Hound of Ill Omen, and can't hide from it.</content>
+    <content contentuid="h8d72d9fca875409eb63fde4db4a9009a0105" version="1">Hound of Ill Omen</content>
+    <content contentuid="hc70f65e105a74091bb1ecbe6a0f94e9e5ccc" version="1">This creature harasses only those marked by &lt;LSTag Type="Spell" Tooltip="pie_Target_HoundOfIllOmen_SetTarget"&gt;Ill Omen&lt;/LSTag&gt;.</content>
+    <content contentuid="h8de5c0bbgb55fg43b6gacb4g0bb1234477a9" version="1">%%% SHOULD BE INVISIBLE - Sorcerer that used Ill Omen</content>
+    <content contentuid="h623d76c2455d44ccbdc00d5cdc7de743474b" version="1">%%% SHOULD BE INVISIBLE - Overrides hound's unarmed attack with bite</content>
+    <content contentuid="h906fece1cdf1444e9f8bd03ec4d3ff129055" version="1">%%% SHOULD BE INVISIBLE - Hound's hide-prevention aura</content>
+    <content contentuid="h9d7752e9d0e84dd1824c37ce0e04fd6a7bgc" version="1">Shadow Walk</content>
+    <content contentuid="hb23af8cac9ee48caafc80d0746b77340aa0c" version="1">You gain the ability to step from one shadow into another. When you are Lightly or Heavily Obscured, you can use your &lt;LSTag Type="ActionResource" Tooltip="BonusActionPoint"&gt;bonus action&lt;/LSTag&gt; to magically teleport up to [1] to an unoccupied space you can see in a Lightly or Heavily Obscured area.</content>
+    <content contentuid="h5b46fddd16c64aef900eb7a7423b2b6b4ag6" version="1">Shadow Walk</content>
+    <content contentuid="he7735a423525437786e32bb1c535706b53gd" version="1">While Lightly or Heavily Obscured, you can magically teleport up to [1] to an unoccupied space you can see in a Lightly or Heavily Obscured area.</content>
+    <content contentuid="hc353fe34d2db43f38266dc46df2f31ec7451" version="1">Shadow Curse Immunity</content>
+    <content contentuid="h9c17710cbd904e67a66526256ee34de6bb4e" version="1">Your innate connection to the Shadowfell allows you to pass through Shadow Cursed Lands unharmed.</content>
+</contentList>

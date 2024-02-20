@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+<version major="1" minor="0" revisions="0" build="0" />
+<region id="SpellLists">
+    <node id="root">
+        <children>
+            <node id="SpellList">
+                <attribute id="Comment" type="LSString" value="1st Level Shadow Origin Spells" />
+                <attribute id="Spells" type="LSString" value="Shout_ArmsOfHadar;Target_Bane" /> 
+                <attribute id="UUID" type="guid" value="941c5a70-fcc2-494c-ad98-aff3577b3507" />
+            </node>
+
+            <node id="SpellList">
+                <attribute id="Comment" type="LSString" value="2nd Level Shadow Origin Spells" />
+                <attribute id="Spells" type="LSString" value="Target_Blindness;Target_Darkness;pie_Target_Darkness_EyesOfTheDark" /> 
+                <attribute id="UUID" type="guid" value="2b4335a9-9cd1-4357-80b9-96d455c6fb38" />
+            </node>
+
+            <node id="SpellList">
+                <attribute id="Comment" type="LSString" value="3rd Level Shadow Origin Spells" />
+                <attribute id="Spells" type="LSString" value="Zone_Fear;Shout_SpiritShroud" /> 
+                <attribute id="UUID" type="guid" value="7095db30-c75c-48d0-8696-672f4f012c17" />
+            </node>
+
+            <node id="SpellList">
+                <attribute id="Comment" type="LSString" value="4th Level Shadow Origin Spells" />
+                <attribute id="Spells" type="LSString" value="pie_Target_BeckoningDarkness;Target_BlackTentacles" /> 
+                <attribute id="UUID" type="guid" value="4663f270-2572-4929-80cd-b412da93752d" />
+            </node>
+
+            <node id="SpellList">
+                <attribute id="Comment" type="LSString" value="5th Level Shadow Origin Spells" />
+                <attribute id="Spells" type="LSString" value="Projectile_NegativeEnergyFlood" /> 
+                <attribute id="UUID" type="guid" value="0a31f731-b734-46ed-97b1-34a0f7b2bb71" />
+            </node>
+        </children>
+    </node>
+</region>
+</save>

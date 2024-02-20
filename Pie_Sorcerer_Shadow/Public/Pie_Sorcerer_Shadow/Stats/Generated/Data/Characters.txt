@@ -1,0 +1,8 @@
+new entry "pie_Summon_Hound_of_Ill_Omen"
+type "Character"
+using "Wolf_Dire"
+data "Armor" "14"
+data "GameSize" "Medium"
+data "ProficiencyBonus" "2"
+data "Passives" "AttackOfOpportunity;DarknessRules;Darkvision;PackTactics"
+

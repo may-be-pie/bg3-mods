@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+  <version major="4" minor="0" revision="0" build="51" />
+  <region id="Templates">
+    <node id="Templates">
+      <children>
+        <node id="GameObjects">
+            <attribute id="DisableEquipping" type="bool" value="True" />
+            <attribute id="DisplayName" type="TranslatedString" handle="h91da3fdfg4aa2g4f56gbcfdg47f13f153dbc" version="1" />
+            <attribute id="Flag" type="int32" value="0" />
+			<attribute id="Icon" type="FixedString" value="5ed40bd0-b338-7e5a-7cfc-b8e4137ee9b3-_(Icon_Shadow_Mastiff)" />
+			<attribute id="IsLootable" type="bool" value="False" />
+			<attribute id="LevelName" type="FixedString" value="" />
+            <attribute id="MapKey" type="FixedString" value="4af03b85-3250-4487-9b6a-285b2aae8b0c" />
+            <attribute id="Name" type="LSString" value="pie_HoundOfIllOmen_Summon" />
+            <attribute id="ParentTemplateId" type="FixedString" value="e72703ea-c0dc-44a1-aab8-d7b7269f7458" />
+			<attribute id="SpellSet" type="FixedString" value="CommonSummonActions" />
+            <attribute id="Stats" type="FixedString" value="pie_Summon_Hound_of_Ill_Omen" />
+            <attribute id="Type" type="FixedString" value="character" />
+            <children>
+                <node id="LocomotionParams" />
+				<node id="OnDeathActions" />
+				<node id="SkillList">
+                    <children>
+                        <node id="Skill">
+                            <attribute id="AIFlags" type="uint16" value="0" />
+                            <attribute id="FallbackStartRound" type="int32" value="-1" />
+                            <attribute id="LearningStrategy" type="uint8" value="0" />
+                            <attribute id="MinimumImpact" type="int32" value="0" />
+                            <attribute id="OnlyCastOnSelf" type="bool" value="False" />
+                            <attribute id="ScoreModifier" type="float" value="1" />
+                            <attribute id="Skill" type="FixedString" value="pie_Target_Bite_HoundOfIllOmen" />
+                            <attribute id="SpellCastingAbility" type="uint8" value="0" />
+                            <attribute id="StartRound" type="int32" value="0" />
+                            <children>
+                                <node id="SourceConditions">
+                                    <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                                    <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                                    <children>
+                                        <node id="Tags" />
+                                    </children>
+                                </node>
+                                <node id="TargetConditions">
+                                    <attribute id="MaximumHealthPercentage" type="int32" value="100" />
+                                    <attribute id="MinimumHealthPercentage" type="int32" value="0" />
+                                    <children>
+                                        <node id="Tags" />
+                                    </children>
+                                </node>
+                            </children>
+                        </node>
+                    </children>
+                </node>
+                <node id="SpeakerGroupList">
+                    <children>
+                        <node id="SpeakerGroup">
+                            <attribute id="Object" type="guid" value="02cdc15e-1dc3-5eb4-f73c-9458b4f90b9f" />
+                        </node>
+                    </children>
+                </node>
+                <node id="StatusList">
+                    <children>
+                        <node id="Status">
+                            <attribute id="Object" type="FixedString" value="PIE_UNARMEDATTACK_OVERRIDE_HOUNDOFILLOMEN"/>
+                        </node>
+                        <node id="Status">
+                            <attribute id="Object" type="FixedString" value="UNSUMMON_ABLE" />
+                        </node>
+                    </children>
+                </node>
+                <node id="Tags">
+                    <children>
+                        <node id="Tag">
+                            <attribute id="Object" type="guid" value="26c78224-a4c1-43e4-b943-75e7fa1bfa41" />
+                        </node>
+                        <node id="Tag">
+                            <attribute id="Object" type="guid" value="081a2ef4-dc1b-4d5b-bae3-8db81bef1d06" />
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+      </children>
+    </node>
+  </region>
+</save>
