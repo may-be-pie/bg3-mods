@@ -41,6 +41,7 @@ bld/
 
 # VS Code files for those working on multiple tools
 .vscode/*
+*/.vscode/*
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -49,3 +50,4 @@ bld/
 
 # Local History for Visual Studio Code
 .history/
+.vscode/settings.json
