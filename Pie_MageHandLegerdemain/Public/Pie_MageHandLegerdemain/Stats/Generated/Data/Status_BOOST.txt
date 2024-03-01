@@ -1,0 +1,9 @@
+new entry "PIE_MAGEHAND_UPGRADE"
+type "StatusData"
+data "StatusType" "BOOST"
+data "Boosts" "UnlockSpell(pie_Shout_Invisibility_MageHand)"
+// data "Boosts" "Skill(SleightOfHand, 1)" for increasing stats
+data "DisplayName" "h80f1d735c86d472280512bf291d0766308d2"
+data "Rules" "5ad0127c-6548-404f-8565-f5165d4c55bb"
+data "StackId" "PIE_MAGEHAND_UPGRADE"
+//data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator;IgnoreResting"
