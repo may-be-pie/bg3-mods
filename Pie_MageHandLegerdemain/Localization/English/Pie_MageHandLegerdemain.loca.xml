@@ -1,0 +1,8 @@
+<contentList date="8/21/2023 5:00">
+  <content contentuid="h7b554034g1eddg4d29ga511g8aaaf2052158" version="1">Mage Hand Invisibility</content>
+  <content contentuid="hf33455fege141g484ag9b3eg10c4dad982d8" version="1">Become &lt;LSTag Type="Status" Tooltip="INVISIBLE"&gt;Invisible&lt;/LSTag&gt;.</content>
+  <content contentuid="h80f1d735c86d472280512bf291d0766308d2" version="1">Passive for MagehandLegerdemain - Spells</content>
+  <content contentuid="hb731b78eaba5472090dd5e151e90505aa643" version="1">Passive for MagehandLegerdemain - Polymorph</content>
+  <content contentuid="hb8a6ea71ac2541d5b0a08cb511120b552117" version="1">Workaround Spell for Magehand</content>
+  <content contentuid="h96c7e34d18364b49a5f4bd9ba3bf1edff540" version="1">Fake Polymorph that should enable lockpicking and trap disarming</content>
+</contentList>
