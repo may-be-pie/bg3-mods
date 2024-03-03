@@ -1,0 +1,6 @@
+new entry "pie_MageHand"
+type "Character"
+using "MageHand"
+data "Dexterity" "14"
+data "Passives" "AttackOfOpportunity;DarknessRules;ShortResting"
+data "DefaultBoosts" "ProficiencyBonus(Skill,SleightOfHand);ProficiencyBonus(Skill,Stealth)"

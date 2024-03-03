@@ -1,15 +1,8 @@
+// could move the unlockes into Character.txt
 new entry "PIE_MAGEHAND_UPGRADE"
 type "StatusData"
 data "StatusType" "BOOST"
-data "Boosts" "UnlockSpell(pie_Shout_Invisibility_MageHand);UnlockSpell(pie_Shout_MageHand_Polymorph)"
-// data "Boosts" "Skill(SleightOfHand, 1)" for increasing stats
+data "Boosts" "UnlockSpell(pie_Shout_Invisibility_MageHand);UnlockSpell(pie_Target_Knock_MageHand)"
 data "DisplayName" "h80f1d735c86d472280512bf291d0766308d2"
 data "StackId" "PIE_MAGEHAND_UPGRADE"
 data "StatusPropertyFlags" "DisableCombatlog;DisableOverhead;DisablePortraitIndicator;IgnoreResting"
-
-new entry "PIE_MAGEHAND_LOCKPICK_WORKAROUND"
-type "StatusData"
-data "StatusType" "POLYMORPHED"
-data "DisplayName" "hb731b78eaba5472090dd5e151e90505aa643"
-data "Rules" "5ad0127c-6548-404f-8565-f5165d4c55bb"
-data "StackId" "PIE_MAGEHAND_WORKAROUND"

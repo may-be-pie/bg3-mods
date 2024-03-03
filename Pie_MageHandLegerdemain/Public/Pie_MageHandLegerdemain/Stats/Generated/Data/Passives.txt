@@ -1,3 +1,4 @@
+// main effect: modify magehand cooldown
 new entry "MageHandLegerdemain"
 type "PassiveData"
 data "DisplayName" "hb60c0bf0gb057g486cgbe5cg0b037bb9874c;2"
@@ -5,4 +6,4 @@ data "Description" "he00b504fg9f72g41abg8546g5c8a27a34a8f;5"
 data "ExtraDescription" "h167aa9bbgb397g450egbc92g424214246fa2;1"
 data "Icon" "Spell_Conjuration_MageHand"
 data "Properties" "Highlighted"
-data "Boosts" "UnlockSpellVariant(SpellId('Target_MageHand'),ModifyTooltipDescription(),ModifyCooldown(OncePerCombat))"
+data "Boosts" "UnlockSpellVariant(SpellId('Target_MageHand'),ModifyTooltipDescription(),ModifyCooldown(OncePerTurn))"
