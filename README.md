@@ -9,3 +9,6 @@ Adds Shadow Sorcery as a subclass for Sorcerer, see [the README](Pie_Sorcerer_Sh
 
 **Requires** Celes' 5e spells: [https://www.nexusmods.com/baldursgate3/mods/125](https://www.nexusmods.com/baldursgate3/mods/125)
 
+## Mage Hand Legerdemain Changes
+Buffs Arcane Trickster's Mage Hand with Invisiblity and Knock
+

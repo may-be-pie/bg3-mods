@@ -1,3 +1,6 @@
+// modifies base game magehand to summon a different entity for magehand legerdemain magehand
+// desired benefit: easier to add extras without messing with other mage hand summons
+// TODO: check how this interacts with other kinds of magehand summons, e.g. githyanki arcane trickster
 new entry "Target_MageHand"
 type "SpellData"
 data "SpellType" "Target"
