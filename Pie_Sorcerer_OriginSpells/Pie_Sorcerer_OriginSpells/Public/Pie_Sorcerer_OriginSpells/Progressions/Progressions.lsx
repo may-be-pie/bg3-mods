@@ -55,6 +55,7 @@
                     <attribute id="TableUUID" type="guid" value="35aa255d-3eb7-4e93-8092-7545ced25b09"/>
                     <attribute id="UUID" type="guid" value="61f97cd9-2339-4791-878f-b19f2d21192a"/>
                 </node>
+            </children>
         </node>
     </region>
 </save>

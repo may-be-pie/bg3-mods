@@ -77,8 +77,3 @@ Note that at level 6, there's still a feature shown to grant some spells. Howeve
 | 5     | Blink, Protection from Energy    |
 | 7     | Confusion, Polymorph             |
 | 9     | Skill Empowerment                |
-
-## Planned Additions
-- 5e Spells: Storm Sphere, Vitriolic Sphere
-- Metamagic: Seeking Spell
-- Metamagic: Transmuted Spell
