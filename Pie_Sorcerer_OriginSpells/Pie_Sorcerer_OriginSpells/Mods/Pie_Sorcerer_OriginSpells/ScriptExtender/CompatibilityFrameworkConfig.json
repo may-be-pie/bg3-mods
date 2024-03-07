@@ -1,0 +1,156 @@
+{
+    "FileVersion": 1,
+    "Progressions": [
+      {
+        "UUID": "6a973653-70d4-46dc-a634-315b47ef336e",
+        "Selectors": [
+          {
+            "Comment": "Storm Sorcery - Level 1",
+            "Action": "Insert",
+            "Function": "AddSpells",
+            "Params": {
+              "Guid": "3e871a2d-140c-4c90-8005-3b147242719a",
+              "PrepareType": "AlwaysPrepared"
+            }
+          }
+        ]
+      },
+      {
+        "UUID": "4c0e372b-4e1e-4f8e-9987-d8377ed56b47",
+        "Selectors": [
+          {
+            "Comment": "Storm Sorcery - Level 3 (CL)",
+            "Action": "Insert",
+            "Function": "AddSpells",
+            "Params": {
+              "Guid": "f8268574-e213-4826-94c4-c78daa97dac7",
+              "PrepareType": "AlwaysPrepared"
+            }
+          }
+        ]
+      },
+      {
+        "UUID": "20185982-31c2-4481-8500-6a6b505411c1",
+        "Selectors": [
+          {
+            "Comment": "Storm Sorcery - Level 5 (CL)",
+            "Action": "Insert",
+            "Function": "AddSpells",
+            "Params": {
+              "Guid": "dce2f5d2-829e-494e-868d-b0ce52a3f241",
+              "PrepareType": "AlwaysPrepared"
+            }
+          }
+        ]
+      },
+      {
+        "UUID": "daca4d03-f668-4c71-a013-4532cba886f5",
+        "Selectors": [
+          {
+            "Comment": "Storm Sorcery - remove vanilla Level 6 spells",
+            "Action": "Remove",
+            "Function": "AddSpells",
+            "UUID": "1efc151d-f076-4ab9-9886-d8c5625691c9"
+          }
+        ]
+      },
+      {
+        "UUID": "70d889ee-9ec3-4431-998a-fa99103b9a3d",
+        "Selectors": [
+          {
+            "Comment": "Storm Sorcery - Level 7 (CL)",
+            "Action": "Insert",
+            "Function": "AddSpells",
+            "Params": {
+              "Guid": "52e67768-e7df-4325-a2ef-5d156795aeb9",
+              "PrepareType": "AlwaysPrepared"
+            }
+          }
+        ]
+      },
+      {
+        "UUID": "08208d21-46e0-4951-af4c-806537cab0a6",
+        "Selectors": [
+          {
+            "Comment": "Storm Sorcery - Level 9 (CL)",
+            "Action": "Insert",
+            "Function": "AddSpells",
+            "Params": {
+              "Guid": "b4a1566f-306a-40e3-bd9e-471a7c82940f",
+              "PrepareType": "AlwaysPrepared"
+            }
+          }
+        ]
+      },
+      {
+        "UUID": "9ab30b9c-0117-414f-8c88-c6a19c8c6d0f",
+        "Selectors": [
+          {
+            "Comment": "Wild Magic - Level 1",
+            "Action": "Insert",
+            "Function": "AddSpells",
+            "Params": {
+              "Guid": "8685170b-71c4-46d9-a862-cbfdf0d1c593",
+              "PrepareType": "AlwaysPrepared"
+            }
+          }
+        ]
+      },
+      {
+        "UUID": "e6071ac3-9689-466f-80cd-9fd9e88a1e44",
+        "Selectors": [
+          {
+            "Comment": "Wild Magic - Level 3",
+            "Action": "Insert",
+            "Function": "AddSpells",
+            "Params": {
+              "Guid": "3e5e5a6c-13b4-4eda-8a93-ced5bd64c7e5",
+              "PrepareType": "AlwaysPrepared"
+            }
+          }
+        ]
+      },
+      {
+        "UUID": "61d08d7e-700b-41c9-a73b-fd8b08f61508",
+        "Selectors": [
+          {
+            "Comment": "Wild Magic - Level 5 (CL)",
+            "Action": "Insert",
+            "Function": "AddSpells",
+            "Params": {
+              "Guid": "c00f7f26-2b7d-4152-9c6d-5df243340437",
+              "PrepareType": "AlwaysPrepared"
+            }
+          }
+        ]
+      },
+      {
+        "UUID": "c78d1acb-fe5e-4543-9104-67b2467f2b34",
+        "Selectors": [
+          {
+            "Comment": "Wild Magic - Level 7 (CL)",
+            "Action": "Insert",
+            "Function": "AddSpells",
+            "Params": {
+              "Guid": "b64af670-0251-4ff7-a397-76147c3e5337",
+              "PrepareType": "AlwaysPrepared"
+            }
+          }
+        ]
+      },
+      {
+        "UUID": "665a374b-9f92-4d22-8817-9382ad03bf38",
+        "Selectors": [
+          {
+            "Comment": "Wild Magic - Level 9 (CL)",
+            "Action": "Insert",
+            "Function": "AddSpells",
+            "Params": {
+              "Guid": "e313efc6-f4d7-4181-9cb5-c1a837fd077c",
+              "PrepareType": "AlwaysPrepared"
+            }
+          }
+        ]
+      }
+    ]
+  }

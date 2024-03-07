@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+<version major="1" minor="0" revisions="0" build="0" />
+<region id="SpellLists">
+    <node id="root">
+        <children>
+            <node id="SpellList">
+                <attribute id="Comment" type="LSString" value="1st Level Storm Origin Spells" />
+                <attribute id="Spells" type="LSString" value="Target_CreateDestroyWater;Zone_Thunderwave" /> 
+                <attribute id="UUID" type="guid" value="3e871a2d-140c-4c90-8005-3b147242719a" />
+            </node>
+            <node id="SpellList">
+                <attribute id="Comment" type="LSString" value="2nd Level Storm Origin Spells" />
+                <attribute id="Spells" type="LSString" value="Zone_GustOfWind;Shout_WardingWind" /> 
+                <attribute id="UUID" type="guid" value="f8268574-e213-4826-94c4-c78daa97dac7" />
+            </node>
+            <node id="SpellList">
+                <attribute id="Comment" type="LSString" value="3rd Level Storm Origin Spells" />
+                <attribute id="Spells" type="LSString" value="Target_CallLightning;Target_SleetStorm" /> 
+                <attribute id="UUID" type="guid" value="dce2f5d2-829e-494e-868d-b0ce52a3f241" />
+            </node>
+            <node id="SpellList">
+                <attribute id="Comment" type="LSString" value="4th Level Storm Origin Spells" />
+                <attribute id="Spells" type="LSString" value="Target_IceStorm;Target_SummonElemental" /> 
+                <attribute id="UUID" type="guid" value="52e67768-e7df-4325-a2ef-5d156795aeb9" />
+            </node>
+            <node id="SpellList">
+                <attribute id="Comment" type="LSString" value="5th Level Storm Origin Spells" />
+                <attribute id="Spells" type="LSString" value="Target_ConjureElemental_Container" /> 
+                <attribute id="UUID" type="guid" value="b4a1566f-306a-40e3-bd9e-471a7c82940f" />
+            </node>
+
+            <node id="SpellList">
+                <attribute id="Comment" type="LSString" value="1st Level Wild Magic Origin Spells" />
+                <attribute id="Spells" type="LSString" value="Target_ChaosBolt;Zone_ColorSpray" /> 
+                <attribute id="UUID" type="guid" value="8685170b-71c4-46d9-a862-cbfdf0d1c593" />
+            </node>
+            <node id="SpellList">
+                <attribute id="Comment" type="LSString" value="2nd Level Wild Magic Origin Spells" />
+                <attribute id="Spells" type="LSString" value="Shout_MirrorImage;Target_NathairsMischief" /> 
+                <attribute id="UUID" type="guid" value="3e5e5a6c-13b4-4eda-8a93-ced5bd64c7e5" />
+            </node>
+            <node id="SpellList">
+                <attribute id="Comment" type="LSString" value="3rd Level Wild Magic Origin Spells" />
+                <attribute id="Spells" type="LSString" value="Shout_Blink;Target_ProtectionFromEnergy" /> 
+                <attribute id="UUID" type="guid" value="c00f7f26-2b7d-4152-9c6d-5df243340437" />
+            </node>
+            <node id="SpellList">
+                <attribute id="Comment" type="LSString" value="4th Level Wild Magic Origin Spells" />
+                <attribute id="Spells" type="LSString" value="Target_Confusion;Target_Polymorph" /> 
+                <attribute id="UUID" type="guid" value="b64af670-0251-4ff7-a397-76147c3e5337" />
+            </node>
+            <node id="SpellList">
+                <attribute id="Comment" type="LSString" value="5th Level Wild Magic Origin Spells" />
+                <attribute id="Spells" type="LSString" value="Target_SkillEmpowerment" /> 
+                <attribute id="UUID" type="guid" value="e313efc6-f4d7-4181-9cb5-c1a837fd077c" />
+            </node>
+
+        </children>
+    </node>
+</region>
+</save>
