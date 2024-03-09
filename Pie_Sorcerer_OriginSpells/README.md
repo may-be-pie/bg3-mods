@@ -1,10 +1,20 @@
+# Sorcerer Origin Spells
+
 ## Dependencies
 
-This mod requires the Community Library, the Compatibility Framework and 5e spells to be installed!
+This mod requires the [Community Library](https://www.nexusmods.com/baldursgate3/mods/1333), the [Compatibility Framework](https://www.nexusmods.com/baldursgate3/mods/1933) and [Celes' 5e spells](https://www.nexusmods.com/baldursgate3/mods/125) to be installed!
+
+- 5e spells contains some of the spells added
+- the Compatibility Framework is used to actually add the spells and to preserve compatibility with other mods
+- the Community Library is used for progression nodes that don't exist within the vanilla game files
 
 ## Draconic Bloodline Origin Spells
 
-All Bloodlines keep the spell granted to them by default, spells listed here are an addition, not a replacement
+All Bloodlines keep the spell granted to them by default, spells listed here are an addition, not a replacement. 
+
+**Known Issue**: 
+- only the spells common to all Draconic Ancestries are shown on level up, but all spells listed below are added
+- it's possible to learn some spells that was added via this mod on levelup, so for example a sorcerer with Red Draconic Ancestry could learn Scorching Ray twice
 
 ### Black and Copper (Acid)
 
@@ -65,8 +75,6 @@ All Bloodlines keep the spell granted to them by default, spells listed here are
 | 5     | Call Lightning, Sleet Storm          |
 | 7     | Ice Storm, Summon Elemental          |
 | 9     | Conjure Elemental                    |
-
-Note that at level 6, there's still a feature shown to grant some spells. However, all of the spells are already granted earlier by this mod.
 
 ## Wild Magic Origin Spells
 
