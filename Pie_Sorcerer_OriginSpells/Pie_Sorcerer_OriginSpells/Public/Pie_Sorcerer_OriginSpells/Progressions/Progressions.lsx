@@ -23,7 +23,7 @@
                 <node id="Progression">
                     <attribute id="Level" type="uint8" value="3"/>
                     <attribute id="Name" type="LSString" value="DraconicBloodline"/>
-                    <attribute id="PassivesAdded" type="LSString" value="pie_DraconicOrigin_2ndLvlSpells"/>
+                    <attribute id="PassivesAdded" type="LSString" value="pie_DraconicOrigin_2ndLvlSpells;pie_DraconicOriginAcid_2ndLvlSpells;pie_DraconicOriginIce_2ndLvlSpells;pie_DraconicOriginFire_2ndLvlSpells;pie_DraconicOriginLightning_2ndLvlSpells;pie_DraconicOriginPoison_2ndLvlSpells"/>
                     <attribute id="ProgressionType" type="uint8" value="1"/>
                     <attribute id="TableUUID" type="guid" value="35aa255d-3eb7-4e93-8092-7545ced25b09"/>
                     <attribute id="UUID" type="guid" value="15f581f8-b68a-46ab-b2c7-6212c7fcd83b"/>
