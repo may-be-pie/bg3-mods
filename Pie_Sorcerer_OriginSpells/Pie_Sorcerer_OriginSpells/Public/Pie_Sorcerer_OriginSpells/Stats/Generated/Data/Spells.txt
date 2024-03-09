@@ -1,0 +1,234 @@
+// Duplicating spells to avoid levelup spelllist weirdness
+// this is just so 1 draconic ancestry getting a spell automatically
+// doesn't remove access to that spell from other draconic ancestries
+// -> only needed for spells from the sorcerer spell list
+
+// Black/Copper
+// - Slow
+new entry "pie_Target_Slow"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slow"
+
+new entry "pie_Target_Slow_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slow_4"
+data "RootSpellID" "pie_Target_Slow"
+
+new entry "pie_Target_Slow_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slow_5"
+data "RootSpellID" "pie_Target_Slow"
+
+new entry "pie_Target_Slow_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Slow_6"
+data "RootSpellID" "pie_Target_Slow"
+
+// Silver/White
+// - Sleet Storm
+new entry "pie_Target_SleetStorm"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SleetStorm"
+
+new entry "pie_Target_SleetStorm_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SleetStorm_4"
+data "RootSpellID" "pie_Target_SleetStorm"
+
+new entry "pie_Target_SleetStorm_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SleetStorm_5"
+data "RootSpellID" "pie_Target_SleetStorm"
+
+new entry "pie_Target_SleetStorm_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_SleetStorm_6"
+data "RootSpellID" "pie_Target_SleetStorm"
+
+// - Ice Storm
+new entry "pie_Target_IceStorm"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_IceStorm"
+
+new entry "pie_Target_IceStorm_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_IceStorm_5"
+data "RootSpellID" "pie_Target_IceStorm"
+
+new entry "pie_Target_IceStorm_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_IceStorm_6"
+data "RootSpellID" "pie_Target_IceStorm"
+
+// - Cone of Cold
+new entry "pie_Zone_ConeOfCold"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_ConeOfCold"
+
+new entry "pie_Zone_ConeOfCold_6"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_ConeOfCold_6"
+data "RootSpellID" "pie_Zone_ConeOfCold"
+
+// Brass/Gold/Red
+// - Scorching Ray
+new entry "pie_Projectile_ScorchingRay"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_ScorchingRay"
+
+new entry "pie_Projectile_ScorchingRay_3"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_ScorchingRay_3"
+data "RootSpellID" "pie_Projectile_ScorchingRay"
+
+new entry "pie_Projectile_ScorchingRay_4"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_ScorchingRay_4"
+data "RootSpellID" "pie_Projectile_ScorchingRay"
+
+new entry "pie_Projectile_ScorchingRay_5"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_ScorchingRay_5"
+data "RootSpellID" "pie_Projectile_ScorchingRay"
+
+new entry "pie_Projectile_ScorchingRay_6"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_ScorchingRay_6"
+data "RootSpellID" "pie_Projectile_ScorchingRay"
+
+// - Fireball
+new entry "pie_Projectile_Fireball"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Fireball"
+
+new entry "pie_Projectile_Fireball_4"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Fireball_4"
+data "RootSpellID" "pie_Projectile_Fireball"
+
+new entry "pie_Projectile_Fireball_5"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Fireball_5"
+data "RootSpellID" "pie_Projectile_Fireball"
+
+new entry "pie_Projectile_Fireball_6"
+type "SpellData"
+data "SpellType" "Projectile"
+using "Projectile_Fireball_6"
+data "RootSpellID" "pie_Projectile_Fireball"
+
+// Blue/Bronze
+// - Blindness
+new entry "pie_Target_Blindness"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Blindness"
+
+new entry "pie_Target_Blindness_3"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Blindness_3"
+data "RootSpellID" "pie_Target_Blindness"
+
+new entry "pie_Target_Blindness_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Blindness_4"
+data "RootSpellID" "pie_Target_Blindness"
+
+new entry "pie_Target_Blindness_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Blindness_5"
+data "RootSpellID" "pie_Target_Blindness"
+
+new entry "pie_Target_Blindness_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Blindness_6"
+data "RootSpellID" "pie_Target_Blindness"
+
+// - Lightning Bolt (still a placeholder)
+new entry "pie_Zone_LightningBolt"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_LightningBolt"
+
+new entry "pie_Zone_LightningBolt_4"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_LightningBolt_4"
+data "RootSpellID" "pie_Zone_LightningBolt"
+
+new entry "pie_Zone_LightningBolt_5"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_LightningBolt_5"
+data "RootSpellID" "pie_Zone_LightningBolt"
+
+new entry "pie_Zone_LightningBolt_6"
+type "SpellData"
+data "SpellType" "Zone"
+using "Zone_LightningBolt_6"
+data "RootSpellID" "pie_Zone_LightningBolt"
+
+// Green
+// - Stinking Cloud
+new entry "pie_Target_StinkingCloud"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StinkingCloud"
+
+new entry "pie_Target_StinkingCloud_4"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StinkingCloud_4"
+data "RootSpellID" "pie_Target_StinkingCloud"
+
+new entry "pie_Target_StinkingCloud_5"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StinkingCloud_5"
+data "RootSpellID" "pie_Target_StinkingCloud"
+
+new entry "pie_Target_StinkingCloud_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_StinkingCloud_6"
+data "RootSpellID" "pie_Target_StinkingCloud"
+
+// - Cloudkill
+new entry "pie_Target_Cloudkill"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Cloudkill"
+
+new entry "pie_Target_Cloudkill_6"
+type "SpellData"
+data "SpellType" "Target"
+using "Target_Cloudkill_6"
+data "RootSpellID" "pie_Target_Cloudkill"
+
+// 5e Spells
+// - Rime's Binding Ice
