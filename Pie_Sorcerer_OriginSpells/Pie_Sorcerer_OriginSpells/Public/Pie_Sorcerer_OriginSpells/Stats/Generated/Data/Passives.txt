@@ -2,14 +2,18 @@
 new entry "pie_DraconicOrigin_1stLvlSpells"
 type "PassiveData"
 data "DisplayName" "h35f1dcb3652c46ee947c040aea4b97e2da69"
+data "Description" "hb2279c21539d4518beb7c4b878f57aaa0g84"
+data "Icon" "PassiveFeature_ElementalAffinity_ExtraDamage"
 data "Properties" "Highlighted"
 data "Boosts" "UnlockSpell(Projectile_ChromaticOrb,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,Charisma)"
+
+//ClassLevelHigherOrEqualThan(6,'Druid')
 
 // granted on level 3
 new entry "pie_DraconicOrigin_2ndLvlSpells"
 type "PassiveData"
 data "DisplayName" "h35f1dcb3652c46ee947c040aea4b97e2da69"
-data "Properties" "Highlighted"
+data "Properties" "IsHidden"
 data "Boosts" "UnlockSpell(Target_HeatMetal,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,Charisma)"
 
 new entry "pie_DraconicOriginAcid_2ndLvlSpells"
@@ -51,7 +55,7 @@ data "Boosts" "UnlockSpell(Target_SpikeGrowth,AddChildren,d136c5d9-0ff0-43da-acc
 new entry "pie_DraconicOrigin_3rdLvlSpells"
 type "PassiveData"
 data "DisplayName" "h35f1dcb3652c46ee947c040aea4b97e2da69"
-data "Properties" "Highlighted"
+data "Properties" "IsHidden"
 data "Boosts" "UnlockSpell(Target_Fly,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,Charisma)"
 
 new entry "pie_DraconicOriginAcid_3rdLvlSpells"
@@ -93,7 +97,7 @@ data "Boosts" "UnlockSpell(pie_Target_StinkingCloud,AddChildren,d136c5d9-0ff0-43
 new entry "pie_DraconicOrigin_4thLvlSpells"
 type "PassiveData"
 data "DisplayName" "h35f1dcb3652c46ee947c040aea4b97e2da69"
-data "Properties" "Highlighted"
+data "Properties" "IsHidden"
 data "Boosts" "UnlockSpell(Target_DominateBeast,AddChildren,d136c5d9-0ff0-43da-acce-a74a07f8d6bf,,Charisma)"
 
 new entry "pie_DraconicOriginAcid_4thLvlSpells"
@@ -136,7 +140,7 @@ data "Boosts" "UnlockSpell(Target_GraspingVine,AddChildren,d136c5d9-0ff0-43da-ac
 new entry "pie_DraconicOrigin_5thLvlSpells"
 type "PassiveData"
 data "DisplayName" "h35f1dcb3652c46ee947c040aea4b97e2da69" 
-data "Properties" "Highlighted"
+data "Properties" "IsHidden"
 
 new entry "pie_DraconicOriginAcid_5thLvlSpells"
 type "PassiveData"
