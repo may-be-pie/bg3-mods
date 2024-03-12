@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="320"/>
+    <region id="DefaultValues">
+        <node id="root">
+            <children>
+                <node id="SpellList">
+                    <attribute id="Comment" type="LSString" value="Rogue Arcane Trickster SLevel 3" />
+                    <!-- vanilla list -->
+                    <!-- <attribute id="Spells" type="LSString" value="Zone_Fear;Target_HypnoticPattern;Shout_Blur;Target_CrownOfMadness;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_PhantasmalForce;Target_HideousLaughter;Target_CharmPerson;Zone_ColorSpray;Shout_DisguiseSelf;Target_Sleep" /> -->
+                    <!-- 5e spells included list -->
+                    <attribute id="Spells" type="LSString" value="Target_Antagonize;Target_Catnap;Target_EnemiesAbound;Zone_Fear;Target_HypnoticPattern;Target_NathairsMischief;Shout_ShadowBlade;Target_TashasMindWhip;Shout_Blur;Target_CrownOfMadness;Target_HoldPerson;Target_Invisibility;Shout_MirrorImage;Target_PhantasmalForce;Target_HideousLaughter;Target_CharmPerson;Zone_ColorSpray;Shout_DisguiseSelf;Target_Sleep" />
+                    <attribute id="UUID" type="guid" value="adf53e6d-bde9-4a78-bbe6-c9eef9a3bac5" />
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

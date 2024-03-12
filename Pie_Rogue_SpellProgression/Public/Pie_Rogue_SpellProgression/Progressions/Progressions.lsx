@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="10" build="100"/>
+    <region id="Progressions">
+        <node id="root">
+            <children>
+                <!-- no need to adjust anything before level 5 -->
+                <!--
+                    Wizard Cantrips:    3cae2e56-9871-4cef-bba6-96845ea765fa
+                    Full  Level 1 list: 11f331b0-e8b7-473b-9d1f-19e8e4178d7d
+                    Restr Level 1 list: 4b629bbb-203b-4382-9786-755bf897567f
+                    Full  Level 2 list: 80c6b070-c3a6-4864-84ca-e78626784eb4
+                    Restr Level 2 list: f9fd64f1-f417-4544-94a9-51d8876d68df
+                    Full  Level 3 list: 22755771-ca11-49f4-b772-13d8b8fecd93
+                    Restr Level 3 list: adf53e6d-bde9-4a78-bbe6-c9eef9a3bac5
+                -->
+                <!-- AT and Ranger have the same number of spellslots on lvl 4, so from lvl 5 on it now follows Ranger spell progression -->
+                <node id="Progression">
+                    <!-- changed line: different spell progression -->
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,1);ActionResource(SpellSlot,2,2)"/>
+                    <attribute id="Level" type="uint8" value="5"/>
+                    <attribute id="Name" type="LSString" value="ArcaneTrickster"/>
+                    <!-- changed line: unlocked level 2 slots earlier -->
+                    <attribute id="PassivesAdded" type="LSString" value="UnlockedSpellSlotLevel2"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <!-- changed line: moved spell learning from lvl 7 here; select from list with level 2 spells instead -->
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(f9fd64f1-f417-4544-94a9-51d8876d68df,1,0,ArcaneTricksterIlluEnch);SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,0,1,ArcaneTricksterAny)"/>
+                    <attribute id="TableUUID" type="guid" value="7205dbe2-5eef-4cd6-ad7f-45b3dc254f78"/>
+                    <attribute id="UUID" type="guid" value="3977b90c-9447-48b7-948b-4c73ef417ea1"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="6"/>
+                    <attribute id="Name" type="LSString" value="ArcaneTrickster"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <!-- changed line: select from level 2 list -->
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,0,1,ArcaneTricksterAny)"/>
+                    <attribute id="TableUUID" type="guid" value="7205dbe2-5eef-4cd6-ad7f-45b3dc254f78"/>
+                    <attribute id="UUID" type="guid" value="8e2d89e9-28ae-4842-aa58-a651cf60d749"/>
+                </node>
+                <node id="Progression">
+                    <!-- changed line: different spell progression -->
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,2)"/>
+                    <attribute id="Level" type="uint8" value="7"/>
+                    <attribute id="Name" type="LSString" value="ArcaneTrickster"/>
+                    <!-- changed line: unlocked level 2 slots earlier -->
+                    <attribute id="PassivesAdded" type="LSString" value=""/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <!-- changed line: moved learned spell ahead to level 5 (where 2nd level slots are unlocked) -->
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(80c6b070-c3a6-4864-84ca-e78626784eb4,0,1,ArcaneTricksterAny)"/>
+                    <attribute id="TableUUID" type="guid" value="7205dbe2-5eef-4cd6-ad7f-45b3dc254f78"/>
+                    <attribute id="UUID" type="guid" value="47ba134f-e4f0-452d-87cd-b3b92d41e918"/>
+                </node>
+                <!-- no changes for level 8 -->
+                <node id="Progression">
+                    <!-- changed line: different spell progression -->
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,2,3)"/>
+                    <attribute id="Level" type="uint8" value="9"/>
+                    <attribute id="Name" type="LSString" value="ArcaneTrickster"/>
+                    <!-- changed line: unlocked level 3 slots -->
+                    <attribute id="PassivesAdded" type="LSString" value="MagicalAmbush;UnlockedSpellSlotLevel3"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <!-- changed line: moved spell learning from level 10 here, select from level 3 list -->
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(adf53e6d-bde9-4a78-bbe6-c9eef9a3bac5,1,0,ArcaneTricksterIlluEnch);SelectSpells(22755771-ca11-49f4-b772-13d8b8fecd93,0,1,ArcaneTricksterAny)"/>
+                    <attribute id="TableUUID" type="guid" value="7205dbe2-5eef-4cd6-ad7f-45b3dc254f78"/>
+                    <attribute id="UUID" type="guid" value="530341bc-d996-49ee-a63d-e1007fccad90"/>
+                </node>
+                <node id="Progression">
+                    <attribute id="Level" type="uint8" value="10"/>
+                    <attribute id="Name" type="LSString" value="ArcaneTrickster"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <!-- changed line: moved learned spell ahead to level 9; added spell swap option -->
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(3cae2e56-9871-4cef-bba6-96845ea765fa,1,0);SelectSpells(22755771-ca11-49f4-b772-13d8b8fecd93,0,1,ArcaneTricksterAny)"/>
+                    <attribute id="TableUUID" type="guid" value="7205dbe2-5eef-4cd6-ad7f-45b3dc254f78"/>
+                    <attribute id="UUID" type="guid" value="53ecef19-2f1c-4d4b-81e9-11a72ad3e0ac"/>
+                </node>
+                <node id="Progression">
+                    <!-- changed line: different spell progression -->
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,3)"/>
+                    <attribute id="Level" type="uint8" value="11"/>
+                    <attribute id="Name" type="LSString" value="ArcaneTrickster"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <!-- changed line: select from level 3 list -->
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(adf53e6d-bde9-4a78-bbe6-c9eef9a3bac5,1,0,ArcaneTricksterIlluEnch)"/>
+                    <attribute id="TableUUID" type="guid" value="7205dbe2-5eef-4cd6-ad7f-45b3dc254f78"/>
+                    <attribute id="UUID" type="guid" value="fa2eeb09-09e7-405e-88e7-14655e736e6b"/>
+                </node>
+                <node id="Progression">
+                    <!-- changed line: different spell progression -->
+                    <!-- this spellslot isn't 5e RAW, but bg3 ranger gets it, so here we go -->
+                    <attribute id="Boosts" type="LSString" value="ActionResource(SpellSlot,1,3)"/>
+                    <attribute id="Level" type="uint8" value="12"/>
+                    <attribute id="Name" type="LSString" value="ArcaneTrickster"/>
+                    <attribute id="ProgressionType" type="uint8" value="1"/>
+                    <!-- changed line: select from level 3 list -->
+                    <attribute id="Selectors" type="LSString" value="SelectSpells(22755771-ca11-49f4-b772-13d8b8fecd93,0,1,ArcaneTricksterAny)"/>
+                    <attribute id="TableUUID" type="guid" value="7205dbe2-5eef-4cd6-ad7f-45b3dc254f78"/>
+                    <attribute id="UUID" type="guid" value="dc94de47-af1f-49cb-a7a4-b60218140b41"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

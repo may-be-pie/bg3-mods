@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="314"/>
+    <region id="ClassDescriptions">
+        <node id="root">
+            <children>
+                <!-- copied directly from the game files, only thing changes is MulticlassSpellcasterModifier -->
+                <node id="ClassDescription">
+                    <attribute id="CharacterCreationPose" type="guid" value="0f07ec6e-4ef0-434e-9a51-1353260ccff8"/>
+                    <attribute id="Description" type="TranslatedString" handle="hecb0341bg3becg4816g9530gc9125e8f1b06" version="1"/>
+                    <attribute id="DisplayName" type="TranslatedString" handle="h30561afcgab43g4221gad1eg441f7cf91ef9" version="1"/>
+                    <attribute id="LearningStrategy" type="uint8" value="1"/>
+                    <!-- <attribute id="MulticlassSpellcasterModifier" type="double" value="0.34000000000000002"/> -->
+                    <attribute id="MulticlassSpellcasterModifier" type="double" value="0.5"/>
+                    <attribute id="Name" type="FixedString" value="ArcaneTrickster"/>
+                    <attribute id="ParentGuid" type="guid" value="e8b1eab0-ef11-40a2-8a0b-cee8d062bf2a"/>
+                    <attribute id="PrimaryAbility" type="uint8" value="2"/>
+                    <attribute id="ProgressionTableUUID" type="guid" value="7205dbe2-5eef-4cd6-ad7f-45b3dc254f78"/>
+                    <attribute id="SoundClassType" type="FixedString" value="Rogue"/>
+                    <attribute id="SpellCastingAbility" type="uint8" value="4"/>
+                    <attribute id="SpellList" type="guid" value="c3a861a2-6bbc-4ff6-96e4-a4accf10d957"/>
+                    <attribute id="UUID" type="guid" value="ede4778e-7602-440f-9075-b4bc8dc31cea"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>
