@@ -1,0 +1,36 @@
+{
+    "FileVersion": 1,
+    "Progressions": [
+      {
+        "UUID": "78b2ac1f-38c7-4da8-b233-c0cb0a0c65a1",
+        "Strings": [
+          {
+            "Comment": "Adds elemental Manifestations on level 6 for 4 Elemenents Monks",
+            "Action": "Insert",
+            "Type": "PassivesAdded",
+            "Strings": [
+                "pie_Manifestation_of_Air",
+                "pie_Manifestation_of_Earth",
+                "pie_Manifestation_of_Fire",
+                "pie_Manifestation_of_Water"    
+            ]
+          }
+        ]
+      },
+      {
+        "UUID": "fd86d0cd-791d-49a1-8d99-402c15f5f77d",
+        "Strings": [
+          {
+            "Comment": "Removes Manifestations from level 6 for Open Hand Monks",
+            "Action": "Remove",
+            "Type": "PassivesRemoved",
+            "Strings": [
+                "Manifestation_of_Body",
+                "Manifestation_of_Mind",
+                "Manifestation_of_Soul"  
+            ]
+          }
+        ]
+      }
+    ]
+}

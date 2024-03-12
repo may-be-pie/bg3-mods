@@ -1,0 +1,14 @@
+<contentList date="9/3/2024 18:38">
+	<content contentuid="h1049723cece64688aa53b3a7598d05823c78" version="1">Manifestation of Air</content>
+    <content contentuid="h09cd0e3bg4c6bg4735g9ed4gb0850fccb653" version="1">Your strikes are enhanced by concentrated bursts of air. Your unarmed attacks deal an additional [1].</content>
+	<content contentuid="ha169d0f7gd3cfg4033gaabbg27fe7b87a8fb" version="1">Can't be used at the same time as &lt;LSTag Type="Passive" Tooltip="pie_Manifestation_of_Earth"&gt;Manifestation of Earth&lt;/LSTag&gt;, &lt;LSTag Type="Passive" Tooltip="pie_Manifestation_of_Fire"&gt;Manifestation of Fire&lt;/LSTag&gt; or &lt;LSTag Type="Passive" Tooltip="pie_Manifestation_of_Water"&gt;Manifestation of Water&lt;/LSTag&gt;.</content>
+	<content contentuid="hcf1ac32c1e724a6884dc6dbb8e053ad88ffe" version="1">Manifestation of Earth</content>
+    <content contentuid="hb58e8d7cca8a482ea642bb17288d360f8cd7" version="1">Use your ki to corrode your enemies' armor. Your unarmed attacks deal an additional [1].</content>
+    <content contentuid="h4e7c374e7dd946d89fc0e422a1a1091aefag" version="1">Can't be used at the same time as &lt;LSTag Type="Passive" Tooltip="pie_Manifestation_of_Air"&gt;Manifestation of Air&lt;/LSTag&gt;, &lt;LSTag Type="Passive" Tooltip="pie_Manifestation_of_Fire"&gt;Manifestation of Fire&lt;/LSTag&gt; or &lt;LSTag Type="Passive" Tooltip="pie_Manifestation_of_Water"&gt;Manifestation of Water&lt;/LSTag&gt;.</content>
+    <content contentuid="h16c5d9c9f81c4c77829da0f8ae730846fa17" version="1">Manifestation of Fire</content>
+    <content contentuid="h5cf5f2b0d75243679c39c95180d76d81e40b" version="1">Infuse your strikes with fiery essence. Your unarmed attacks deal an additional [1].</content>
+    <content contentuid="h23dc707ef6284279b1db0fd2421870cbe2ab" version="1">Can't be used at the same time as &lt;LSTag Type="Passive" Tooltip="pie_Manifestation_of_Air"&gt;Manifestation of Air&lt;/LSTag&gt;, &lt;LSTag Type="Passive" Tooltip="pie_Manifestation_of_Earth"&gt;Manifestation of Earth&lt;/LSTag&gt; or &lt;LSTag Type="Passive" Tooltip="pie_Manifestation_of_Water"&gt;Manifestation of Water&lt;/LSTag&gt;.</content>
+    <content contentuid="hc0373187a8514b31a396accb99aef63676cb" version="1">Manifestation of Water</content>
+    <content contentuid="h8e38b18022b44ee2a3a02789ac662660d1ae" version="1">Your strikes slow the ki flow in your enemies' bodies. Your unarmed attacks deal an additional [1].</content>
+    <content contentuid="h2117b95fcb2a4d1bb2218dd16995a0623a56" version="1">Can't be used at the same time as &lt;LSTag Type="Passive" Tooltip="pie_Manifestation_of_Air"&gt;Manifestation of Air&lt;/LSTag&gt;, &lt;LSTag Type="Passive" Tooltip="pie_Manifestation_of_Earth"&gt;Manifestation of Earth&lt;/LSTag&gt; or &lt;LSTag Type="Passive" Tooltip="pie_Manifestation_of_Fire"&gt;Manifestation of Fire&lt;/LSTag&gt;.</content>
+</contentList>
